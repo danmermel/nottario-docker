@@ -15,7 +15,7 @@ Run the geth machine (in a screen):
 
 ```sh
 docker run --rm -p 30303:30303 -p 8545:8545 -v "$PWD/geth_stage:/home/geth" --network=gethbridge --name=gethmachine.com gethmachine_stage
-``
+```
 
 Periodically run the prov machine:
 
